@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="accueil" />
+    <item
+        android:id="@+id/setting_menu"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="paramettre" />
+    <item
+        android:id="@+id/message_menu"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Message" />
+
+    <item android:title="profle"
+        >
+        <menu>
+
+            <item android:title="mon compte"
+                android:id="@+id/login_menu"
+                android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+        </menu>
+    </item>
+
+    <item android:title="application"
+        >
+        <menu>
+            <item android:title="Apropos d'application"
+                android:id="@+id/about_menu"
+                android:icon="@drawable/ic_baseline_system_update_24"/>
+
+            <item android:title="partager"
+                android:id="@+id/share_me"
+                android:icon="@drawable/ic_baseline_share_24"/>
+
+        </menu>
+    </item>
+</menu>

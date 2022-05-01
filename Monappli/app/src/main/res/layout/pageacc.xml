@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image3"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/sanscodenense"
+            android:gravity="center"
+            android:text="Transferez de l'argent"
+            android:textColor="@color/rouge"
+            android:textSize="@dimen/_19ssp"
+            android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="de votre comptes vers"
+                android:gravity="center"
+                android:fontFamily="@font/sanscodenense"
+                android:textStyle="italic"
+                android:textSize="@dimen/_18ssp"
+                android:textColor="@color/rouge"
+                />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tous les comptes"
+            android:gravity="center"
+            android:fontFamily="@font/sanscodenense"
+            android:textStyle="italic|bold"
+            android:textSize="@dimen/_19ssp"
+            android:textColor="@color/rouge"
+            />
+
+        <Button
+            android:fontFamily="@font/robotomono_italic"
+            android:id="@+id/accueil"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_width="@dimen/_190sdp"
+            android:textColor="@color/white"
+            android:layout_height="@dimen/_37sdp"
+            android:background="@drawable/arrondir"
+            android:text="Accueil" />
+
+        <Button
+            android:id="@+id/utilisation"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_width="@dimen/_190sdp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/robotomono_italic"
+            android:layout_height="@dimen/_37sdp"
+            android:background="@drawable/arrondir"
+            android:text="utilisation" />
+        <Button
+            android:id="@+id/reseaudispo"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/robotomono_italic"
+            android:layout_width="@dimen/_190sdp"
+            android:textColor="@color/white"
+            android:layout_height="@dimen/_37sdp"
+            android:background="@drawable/arrondir"
+            android:text="reseau disponible" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

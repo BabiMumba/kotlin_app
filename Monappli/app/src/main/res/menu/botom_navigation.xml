@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/airtel"
+        android:icon="@drawable/airtel1"
+        android:title="Airtel"
+        />
+    <item android:id="@+id/vodacom"
+        android:title="Vodacom"
+        android:icon="@drawable/vodacome1"
+        />
+    <item android:id="@+id/africell"
+        android:icon="@drawable/africell3"
+        android:title="Africell"
+        />
+    <item android:id="@+id/orange"
+        android:icon="@drawable/orange1"
+        android:title="Orange"
+        />
+
+</menu>
